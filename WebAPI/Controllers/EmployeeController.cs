@@ -13,6 +13,7 @@ namespace WebAPI.Controllers
     [ApiController]
     public class EmployeeController : ControllerBase
     {
+        //created the variable
         private readonly IWebHostEnvironment _env;
         private readonly IEmployeeRepository _employee;
         private readonly IDepartmentRepository _department;
